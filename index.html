@@ -2,127 +2,140 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ElementalWorld — Гриферский сервер Minecraft</title>
+  <title>Site-98 | V{R</title>
   <style>
     body {
-      margin: 0;
+      background-color: #0d0d0d;
+      color: #f2f2f2;
       font-family: Arial, sans-serif;
-      background: #0f0f0f;
-      color: #f0f0f0;
-    }
-    header {
-      background: linear-gradient(90deg, #00c3ff, #7700ff);
-      padding: 20px;
-      text-align: center;
-    }
-    header h1 {
       margin: 0;
-      font-size: 2.5rem;
+      padding: 0;
     }
-    .section {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-    .donates, .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
-    }
-    .card {
-      background: #1a1a1a;
+
+    header {
+      background-color: #1a1a1a;
       padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.5);
-      transition: transform 0.2s;
-    }
-    .card:hover {
-      transform: scale(1.05);
-    }
-    h2 {
       text-align: center;
-      margin-bottom: 20px;
     }
-    .discord {
+
+    header h1 {
+      font-size: 36px;
+      margin: 0;
+      color: #00ccff;
+    }
+
+    section.features {
+      padding: 30px;
       text-align: center;
-      margin-top: 30px;
     }
-    .discord a {
-      color: #00c3ff;
-      font-weight: bold;
-      text-decoration: none;
-      font-size: 1.2rem;
+
+    .features h2 {
+      font-size: 28px;
+      color: #00cc99;
     }
-    .donate-button {
-      display: block;
-      margin: 40px auto 0;
-      padding: 15px 30px;
-      font-size: 1.1rem;
-      background: #00c3ff;
-      color: #000;
-      border: none;
+
+    ul.benefits {
+      list-style: none;
+      padding: 0;
+      font-size: 18px;
+    }
+
+    ul.benefits li {
+      margin: 10px 0;
+    }
+
+    section.roles {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px;
+      background-color: #1a1a1a;
+    }
+
+    .role-card {
+      background-color: #262626;
+      margin: 15px;
+      padding: 20px;
       border-radius: 10px;
+      width: 260px;
+      text-align: center;
+      box-shadow: 0 0 10px #00ccff50;
+    }
+
+    .role-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .role-card h3 {
+      margin-top: 15px;
+      font-size: 22px;
+      color: #00ccff;
+    }
+
+    .role-card p {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    .role-card button {
+      background-color: #00ccff;
+      border: none;
+      padding: 10px 15px;
+      color: black;
+      border-radius: 5px;
       cursor: pointer;
-      text-align: center;
-      text-decoration: none;
-      transition: background 0.3s;
+      font-weight: bold;
     }
-    .donate-button:hover {
-      background: #009bd1;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #111;
-      font-size: 0.9rem;
-      color: #888;
+
+    .role-card button:hover {
+      background-color: #00aacc;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>ElementalWorld</h1>
-    <p>Гриферский сервер Minecraft с душой</p>
+    <h1>Site-98 | V{R</h1>
   </header>
 
-  <div class="section">
-    <h2>Донаты</h2>
-    <div class="donates">
-      <div class="card">Hydra</div>
-      <div class="card">YouTube</div>
-      <div class="card">Ml.Moder</div>
-      <div class="card">Sponsor</div>
-      <div class="card">Ghost</div>
-      <div class="card">Lucifer</div>
-      <div class="card">TikTok</div>
-      <div class="card">Helper</div>
-      <div class="card">Rabbit</div>
-      <div class="card">D.Helper</div>
-    </div>
-    <a class="donate-button" href="#" onclick="alert('Для доната напиши в Discord: @Админ или переведи на карту: 4890 **** **** ****')">Поддержать сервер</a>
-  </div>
+  <section class="features">
+    <h2>Почему выбрать наш сервер SCP RP?</h2>
+    <ul class="benefits">
+      <li>🔒 Уникальная система уровней допуска</li>
+      <li>🔫 Ролевая игра с элементами SCP:SL</li>
+      <li>💼 Регулярные ивенты и тренировки</li>
+      <li>🧠 Адекватная и активная администрация</li>
+    </ul>
+  </section>
 
-  <div class="section">
-    <h2>Преимущества сервера</h2>
-    <div class="features">
-      <div class="card">🔥 Добрая и отзывчивая администрация</div>
-      <div class="card">⚔️ Гриферство разрешено — будь королём хаоса</div>
-      <div class="card">🎁 Уникальные кейсы и награды</div>
-      <div class="card">💣 Красивые взрывы TNT и PvP-ивенты</div>
-      <div class="card">🚀 Мощный античит без лагов</div>
-      <div class="card">💬 Онлайн-чат и поддержка игроков</div>
-      <div class="card">🌐 Приятный сайт и система донатов</div>
-      <div class="card">👑 Уважение к игрокам — каждый важен</div>
+  <section class="roles">
+    <div class="role-card">
+      <img src="https://via.placeholder.com/260x160.png?text=Scientist" alt="Scientist">
+      <h3>Хочешь стать Учёным?</h3>
+      <p>Проводи эксперименты, изучай SCP и помогай человечеству!</p>
+      <button>Присоединиться</button>
     </div>
-    <div class="discord">
-      <p>Наш Discord:</p>
-      <a href="https://discord.gg/9xrvh84g9W" target="_blank">https://discord.gg/9xrvh84g9W</a>
-    </div>
-  </div>
 
-  <footer>
-    &copy; 2025 ElementalWorld | Все права защищены
-  </footer>
+    <div class="role-card">
+      <img src="https://via.placeholder.com/260x160.png?text=MTF+Unit" alt="MTF">
+      <h3>Хочешь вступить в MTF?</h3>
+      <p>Защищай объект, устраняй угрозы и охраняй аномалии.</p>
+      <button>Присоединиться</button>
+    </div>
+
+    <div class="role-card">
+      <img src="https://via.placeholder.com/260x160.png?text=D-Class" alt="D-Class">
+      <h3>Хочешь быть D-Class?</h3>
+      <p>Испытай судьбу как подопытный. Удачи… она пригодится.</p>
+      <button>Присоединиться</button>
+    </div>
+
+    <div class="role-card">
+      <img src="https://via.placeholder.com/260x160.png?text=SCP" alt="SCP">
+      <h3>Хочешь быть SCP?</h3>
+      <p>Стань самой опасной аномалией и вырывайся на свободу!</p>
+      <button>Присоединиться</button>
+    </div>
+  </section>
 </body>
 </html>
